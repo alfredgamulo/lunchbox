@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "lunchbox"
+version = "0.1.0"
+description = ""
+authors = ["Alfred Gamulo <alfred.gamulo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^11.1.0"
+typer = "^0.4.0"
+click = "^8.0.3"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+Nuitka = "^0.6.19"
+flake8 = "^4.0.1"
+zstandard = "^0.17.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
