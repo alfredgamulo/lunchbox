@@ -4,6 +4,12 @@ version = "0.1.0"
 description = ""
 authors = ["Alfred Gamulo <alfred.gamulo@gmail.com>"]
 
+[tool.poetry.scripts]
+alpha = "lunchbox.alpha.main:builtin"
+bravo = "lunchbox.bravo.main:cli"
+charlie = "lunchbox.charlie.main:app"
+delta = "lunchbox.delta.main:app"
+
 [tool.poetry.dependencies]
 python = "^3.10"
 rich = "^11.1.0"
